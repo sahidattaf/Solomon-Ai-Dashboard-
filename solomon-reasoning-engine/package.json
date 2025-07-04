@@ -1,5 +1,7 @@
 {
   "name": "solomon-reasoning-engine",
   "version": "1.0.0",
-  "dependencies": {}
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
