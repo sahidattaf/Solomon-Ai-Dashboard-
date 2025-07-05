@@ -61,11 +61,13 @@ Automated checks for linting, build, type safety.
 
 ---
 
-## 🧵 Wisdom Thread Preview
+## 🧵 Wisdom Renderer
 
-> *“The sage never stops exploring the thread — the thread never stops exploring the sage.”*
+```tsx
+import ReasoningTabs from '@/components/ReasoningTabs'
 
-Coming soon: Interactive Wisdom Thread Renderer powered by `treeofthought`.
+<ReasoningTabs />
+```
 
 ---
 
