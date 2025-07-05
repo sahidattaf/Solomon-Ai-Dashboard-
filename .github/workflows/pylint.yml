@@ -21,3 +21,11 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py')
+    - name: Install frontend dependencies
+      run: |
+        cd solomon-reasoning-engine
+        npm ci
+    - name: Run frontend tests
+      run: |
+        cd solomon-reasoning-engine
+        npm test --silent
